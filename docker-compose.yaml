@@ -6,7 +6,7 @@ services:
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
     ports:
-      - '6390:6379'
+      - '2290:6379'
 
 
   app:
